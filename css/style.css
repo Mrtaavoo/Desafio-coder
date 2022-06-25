@@ -21,6 +21,7 @@ body {
 }
 .navbar{
     grid-area: navbar;
+    background-image: linear-gradient(to top, #ffffff, #e5e6e7, #cacece, #b1b6b4, #9c9e99);
     
 }
 .sidevar{
@@ -34,6 +35,7 @@ body {
   text-decoration: none;
   color: black;
   transition: all 200ms ease-in;
+
 }
 
 /* Bodi banner */
@@ -56,8 +58,7 @@ body {
         "footer footer";
     }
     .nav-list {
-        background: white;
-        box-shadow: 0px 0px 10px var(--clr-gray200);
+      
         border-radius: var(--radius);
         padding: 1rem 0;
         display: flex;
